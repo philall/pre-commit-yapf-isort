@@ -12,7 +12,9 @@ and check for this with pre-commit you need this!
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: https://github.com/philall/pre-commit-yapf-isort
-        sha: ''  # Use the sha / tag you want to point at
-        hooks:
-        -   id: yapf-isort
+```
+- repo: https://github.com/philall/pre-commit-yapf-isort
+  sha: 'master'
+  hooks:
+    - id: yapf-isort
+```
